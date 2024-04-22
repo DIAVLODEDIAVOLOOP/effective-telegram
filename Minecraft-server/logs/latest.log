@@ -1,0 +1,453 @@
+[22Apr2024 01:19:52.994] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.18, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[22Apr2024 01:19:52.997] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.2 by Microsoft
+[22Apr2024 01:19:53.123] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[22Apr2024 01:19:53.500] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.18/fmlcore-1.18.2-40.2.18.jar is missing mods.toml file
+[22Apr2024 01:19:53.501] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.18/javafmllanguage-1.18.2-40.2.18.jar is missing mods.toml file
+[22Apr2024 01:19:53.503] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.18/lowcodelanguage-1.18.2-40.2.18.jar is missing mods.toml file
+[22Apr2024 01:19:53.504] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.18/mclanguage-1.18.2-40.2.18.jar is missing mods.toml file
+[22Apr2024 01:19:53.603] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Apr2024 01:19:55.154] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Apr2024 01:19:55.191] [main/ERROR] [mixin/]: Mixin config radon.mixins.json does not specify "minVersion" property
+[22Apr2024 01:19:55.236] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[22Apr2024 01:19:55.285] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Apr2024 01:19:55.286] [main/WARN] [mixin/]: Reference map 'nethersdelight.refmap.json' for nethersdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Apr2024 01:19:55.312] [main/INFO] [Canary/]: Loaded configuration file for Canary: 118 options available, 0 override(s) found
+[22Apr2024 01:19:55.324] [main/WARN] [mixin/]: Reference map 'cupboard.refmap.json' for cupboard.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Apr2024 01:19:55.466] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[22Apr2024 01:19:55.466] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[22Apr2024 01:19:55.466] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found findme-common.mixins.json:MixinSlotRenderer
+[22Apr2024 01:19:55.468] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER
+[22Apr2024 01:19:55.468] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleEngine (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER)
+[22Apr2024 01:19:55.469] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleEngine was not found findme-common.mixins.json:ParticleEngineAccessor
+[22Apr2024 01:19:59.097] [main/WARN] [mixin/]: @Final field f_31427_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[22Apr2024 01:19:59.098] [main/WARN] [mixin/]: @Final field f_31428_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[22Apr2024 01:20:04.636] [modloading-worker-0/INFO] [Puzzles Lib/]: Creating registry manager for mod id visualworkbench
+[22Apr2024 01:20:04.693] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[22Apr2024 01:20:04.745] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[22Apr2024 01:20:04.790] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.18, for MC 1.18.2 with MCP 20220404.173914
+[22Apr2024 01:20:04.790] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.18 Initialized
+[22Apr2024 01:20:05.045] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:basic_attack
+[22Apr2024 01:20:05.052] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:air_attack
+[22Apr2024 01:20:05.054] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:roll
+[22Apr2024 01:20:05.056] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:step
+[22Apr2024 01:20:05.076] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:knockdown_wakeup
+[22Apr2024 01:20:05.093] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:guard
+[22Apr2024 01:20:05.108] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:parrying
+[22Apr2024 01:20:05.166] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:impact_guard
+[22Apr2024 01:20:05.170] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:berserker
+[22Apr2024 01:20:05.208] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:death_harvest
+[22Apr2024 01:20:05.236] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:emergency_escape
+[22Apr2024 01:20:05.238] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:endurance
+[22Apr2024 01:20:05.239] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:forbidden_strength
+[22Apr2024 01:20:05.240] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:hypervitality
+[22Apr2024 01:20:05.242] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:stamina_pillager
+[22Apr2024 01:20:05.243] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:swordmaster
+[22Apr2024 01:20:05.245] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:technician
+[22Apr2024 01:20:05.250] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:sweeping_edge
+[22Apr2024 01:20:05.251] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:dancing_edge
+[22Apr2024 01:20:05.252] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:the_guillotine
+[22Apr2024 01:20:05.290] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:grasping_spire
+[22Apr2024 01:20:05.290] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:heartpiercer
+[22Apr2024 01:20:05.303] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/desert/town_centers]' to registry
+[22Apr2024 01:20:05.309] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:steel_whirlwind
+[22Apr2024 01:20:05.310] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:battojutsu
+[22Apr2024 01:20:05.311] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:battojutsu_passive
+[22Apr2024 01:20:05.335] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:rushing_tempo
+[22Apr2024 01:20:05.339] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:relentless_combo
+[22Apr2024 01:20:05.367] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:liechtenauer
+[22Apr2024 01:20:05.384] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:sharp_stab
+[22Apr2024 01:20:05.385] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:eviscerate
+[22Apr2024 01:20:05.616] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:blade_rush
+[22Apr2024 01:20:05.620] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:wrathful_lighting
+[22Apr2024 01:20:05.625] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:tsunami
+[22Apr2024 01:20:05.630] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:everlasting_allegiance
+[22Apr2024 01:20:05.695] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:meteor_slam
+[22Apr2024 01:20:05.697] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:revelation
+[22Apr2024 01:20:05.705] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:demolition_leap
+[22Apr2024 01:20:05.707] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:phantom_ascent
+[22Apr2024 01:20:05.883] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[22Apr2024 01:20:05.890] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id findme:default/93a3df5fb37f371cb25c481f6e5b9323
+[22Apr2024 01:20:05.892] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id findme:default/b71e26ec071d32928d9fb5d2c3ec8a7a
+[22Apr2024 01:20:05.978] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id whisperwoods:main_channel/cdff7a8a5b4f3f218b5f77ef22e66016
+[22Apr2024 01:20:05.995] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id whisperwoods:main_channel/773a011a51b630fba84ab824165fbd92
+[22Apr2024 01:20:05.995] [modloading-worker-0/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Spooking you...
+[22Apr2024 01:20:06.102] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
+[22Apr2024 01:20:06.480] [ForkJoinPool.commonPool-worker-1/INFO] [friendsandfoes/]: An update for Friends&Foes is available! You're using 1.4.6 version but the latest version is 1.4.8!
+[22Apr2024 01:20:06.530] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[22Apr2024 01:20:10.090] [main/INFO] [com.song.castle_in_the_sky.CastleInTheSky/]: HELLO from Register Block
+[22Apr2024 01:20:15.789] [main/INFO] [Puzzles Lib/]: Registering 1 element(s) to registry of type minecraft:block_entity_type for mod id visualworkbench
+[22Apr2024 01:20:16.560] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:glare] was not realized!
+[22Apr2024 01:20:16.562] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:mauler] was not realized!
+[22Apr2024 01:20:16.562] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[22Apr2024 01:20:16.563] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[22Apr2024 01:20:16.564] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[22Apr2024 01:20:16.564] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:moobloom] was not realized!
+[22Apr2024 01:20:16.565] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:iceologer] was not realized!
+[22Apr2024 01:20:16.565] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[22Apr2024 01:20:16.566] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[22Apr2024 01:20:16.567] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:copper_golem] was not realized!
+[22Apr2024 01:20:16.601] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:glare] was not realized!
+[22Apr2024 01:20:16.601] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:mauler] was not realized!
+[22Apr2024 01:20:16.602] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:moobloom] was not realized!
+[22Apr2024 01:20:16.602] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:iceologer] was not realized!
+[22Apr2024 01:20:16.603] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:copper_golem] was not realized!
+[22Apr2024 01:20:16.603] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:glare] was not realized!
+[22Apr2024 01:20:16.603] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:mauler] was not realized!
+[22Apr2024 01:20:16.603] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:moobloom] was not realized!
+[22Apr2024 01:20:16.604] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:iceologer] was not realized!
+[22Apr2024 01:20:16.604] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:copper_golem] was not realized!
+[22Apr2024 01:20:16.658] [main/INFO] [Puzzles Lib/]: Registering 1 element(s) to registry of type minecraft:menu for mod id visualworkbench
+[22Apr2024 01:20:18.672] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityLeafcutterAnt from class com.github.alexthe666.alexsmobs.entity.EntityDevilsHolePupfish
+[22Apr2024 01:20:18.673] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityMantisShrimp from class com.github.alexthe666.alexsmobs.entity.EntitySkelewag
+[22Apr2024 01:20:18.690] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:18.718] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.719] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.720] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.720] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.722] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.722] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.723] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.723] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:18.726] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.727] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.727] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.727] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.733] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.734] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.735] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.735] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.736] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.736] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.737] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.737] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:18.740] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.748] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.749] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:18.749] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:18.750] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:18.753] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.754] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.754] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.755] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.756] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.759] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.766] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.767] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.793] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.793] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.793] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:18.848] [main/INFO] [ModdingLegacy/blue_skies/]: Loading Config: blue_skies-common.toml
+[22Apr2024 01:20:18.848] [main/INFO] [ModdingLegacy/blue_skies/]: Loading Config: blue_skies-common.toml
+[22Apr2024 01:20:18.850] [Thread-0/INFO] [ModdingLegacy/blue_skies/]: Reloading Config: blue_skies-common.toml
+[22Apr2024 01:20:18.856] [Thread-0/INFO] [ModdingLegacy/blue_skies/]: Reloading Config: blue_skies-common.toml
+[22Apr2024 01:20:18.859] [Thread-0/INFO] [ModdingLegacy/blue_skies/]: Reloading Config: blue_skies-common.toml
+[22Apr2024 01:20:18.859] [Thread-0/INFO] [ModdingLegacy/blue_skies/]: Reloading Config: blue_skies-common.toml
+[22Apr2024 01:20:18.901] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registering data for structure_gel:biome_dictionary
+[22Apr2024 01:20:18.932] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registering data for structure_gel:loot_table_alias
+[22Apr2024 01:20:18.945] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registering data for structure_gel:data_handler_type
+[22Apr2024 01:20:18.953] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registering data for structure_gel:dynamic_spawner
+[22Apr2024 01:20:18.965] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config
+[22Apr2024 01:20:19.205] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:skyris_vale to [structure_gel:mountain, structure_gel:cold]
+[22Apr2024 01:20:19.206] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:temperate_grove to [structure_gel:plains, structure_gel:neutral_temp]
+[22Apr2024 01:20:19.207] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:autumnal_forest to [structure_gel:wooded, structure_gel:humid, structure_gel:autumn_forest, structure_gel:cold]
+[22Apr2024 01:20:19.209] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:sythian_torrids to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.210] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:dacite_ridges to [structure_gel:mountain, structure_gel:cold]
+[22Apr2024 01:20:19.211] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:sierra_badlands to [structure_gel:plains, structure_gel:warm]
+[22Apr2024 01:20:19.212] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:borealis_grove to [structure_gel:wooded, structure_gel:cold]
+[22Apr2024 01:20:19.212] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:cryptic_wastes to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.213] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:lush_stacks to [structure_gel:neutral_temp, structure_gel:ocean]
+[22Apr2024 01:20:19.214] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:black_forest to [structure_gel:spruce_forest, structure_gel:cold]
+[22Apr2024 01:20:19.214] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:ethereal_islands to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.215] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:forgotten_forest to [structure_gel:wooded, structure_gel:neutral_temp]
+[22Apr2024 01:20:19.216] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:windswept_dunes to [structure_gel:desert, structure_gel:hot, structure_gel:dry]
+[22Apr2024 01:20:19.216] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:bulbis_gardens to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.217] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:imparius_grove to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.217] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:redwood_thicket to [structure_gel:wooded, structure_gel:humid, structure_gel:neutral_temp, structure_gel:redwood_forest]
+[22Apr2024 01:20:19.218] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:viscal_isles to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.219] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:frosted_taiga to [structure_gel:snowy_spruce_forest, structure_gel:snowy]
+[22Apr2024 01:20:19.220] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:windswept_desert to [structure_gel:desert, structure_gel:hot, structure_gel:dry]
+[22Apr2024 01:20:19.221] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:nightshade_forest to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.222] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:brimstone_caverns to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether, structure_gel:cave]
+[22Apr2024 01:20:19.222] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:twilight_meadow to [structure_gel:wooded, structure_gel:cold]
+[22Apr2024 01:20:19.223] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:atacama_desert to [structure_gel:desert, structure_gel:hot, structure_gel:dry]
+[22Apr2024 01:20:19.223] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:red_rock_valley to [structure_gel:desert, structure_gel:warm]
+[22Apr2024 01:20:19.223] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:magma_wastes to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.224] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:windswept_beach to [structure_gel:neutral_temp, structure_gel:beach]
+[22Apr2024 01:20:19.225] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:araucaria_savanna to [structure_gel:dry, structure_gel:warm, structure_gel:savanna]
+[22Apr2024 01:20:19.226] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:rose_fields to [structure_gel:plains, structure_gel:neutral_temp]
+[22Apr2024 01:20:19.226] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:subzero_hypogeal to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.226] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:shulkren_forest to [structure_gel:neutral_temp, structure_gel:the_end, structure_gel:dry]
+[22Apr2024 01:20:19.234] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:crimson_gardens to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.235] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:arisian_undergrowth to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.235] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:temperate_rainforest to [structure_gel:wooded, structure_gel:neutral_temp]
+[22Apr2024 01:20:19.235] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:firecracker_shrubland to [structure_gel:desert, structure_gel:hot]
+[22Apr2024 01:20:19.236] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:canadian_shield to [structure_gel:snowy, structure_gel:snowy_mountain, structure_gel:cold]
+[22Apr2024 01:20:19.236] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:dacite_shore to [structure_gel:mountain, structure_gel:cold]
+[22Apr2024 01:20:19.236] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:autumnal_taiga to [structure_gel:autumn_forest, structure_gel:spruce_forest, structure_gel:cold]
+[22Apr2024 01:20:19.236] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:white_mangrove_marshes to [structure_gel:neutral_temp, structure_gel:swamp]
+[22Apr2024 01:20:19.237] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:wailing_garth to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.237] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:fragment_forest to [structure_gel:wooded, structure_gel:cold]
+[22Apr2024 01:20:19.252] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:cardinal_tundra to [structure_gel:snowy, structure_gel:cold]
+[22Apr2024 01:20:19.252] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:cika_woods to [structure_gel:wooded, structure_gel:neutral_temp]
+[22Apr2024 01:20:19.253] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:howling_peaks to [structure_gel:cold]
+[22Apr2024 01:20:19.253] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:quartz_desert to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.253] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:weeping_mire to [structure_gel:hot, structure_gel:dry, structure_gel:the_nether]
+[22Apr2024 01:20:19.253] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered terrablender:deferred_placeholder to [structure_gel:neutral_temp, structure_gel:dry]
+[22Apr2024 01:20:19.254] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:basalt_barrera to [structure_gel:neutral_temp, structure_gel:beach]
+[22Apr2024 01:20:19.254] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:frosted_coniferous_forest to [structure_gel:snowy_spruce_forest, structure_gel:snowy, structure_gel:coniferous_forest]
+[22Apr2024 01:20:19.254] [main/INFO] [ModdingLegacy/structure_gel/]: [Structure Gel] Registered byg:coconino_meadow to [structure_gel:plains, structure_gel:neutral_temp]
+[22Apr2024 01:20:19.443] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[22Apr2024 01:20:19.472] [modloading-worker-0/INFO] [com.song.castle_in_the_sky.CastleInTheSky/]: HELLO FROM PREINIT
+[22Apr2024 01:20:19.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Starting version check at http://changelogs.moddinglegacy.com/blue-skies.json
+[22Apr2024 01:20:19.596] [modloading-worker-0/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Summoning a hidebehind to eat you...
+[22Apr2024 01:20:19.655] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[22Apr2024 01:20:19.675] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/end-biomes.json5" was read.
+[22Apr2024 01:20:19.742] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/nether-biomes.json5" was read.
+[22Apr2024 01:20:19.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Found status: UP_TO_DATE Current: 1.3.12 Target: null
+[22Apr2024 01:20:19.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[22Apr2024 01:20:20.010] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[22Apr2024 01:20:20.019] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/byg-biome-dictionary.json" was read.
+[22Apr2024 01:20:20.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[22Apr2024 01:20:20.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[22Apr2024 01:20:20.037] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[22Apr2024 01:20:20.075] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[22Apr2024 01:20:20.146] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/end_surface_rules.json5" was read.
+[22Apr2024 01:20:20.163] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/growing-patterns.json5" was read.
+[22Apr2024 01:20:20.224] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/trades.json5" was read.
+[22Apr2024 01:20:20.260] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/settings.json5" was read.
+[22Apr2024 01:20:20.271] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/biomepedia.json5" was read.
+[22Apr2024 01:20:20.328] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: Created compressed zip back up for "/workspaces/codespaces-jupyter/Minecraft-server/config/byg" in "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/backups/last_working_configs_backup.zip"
+[22Apr2024 01:20:20.360] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: BYG: Added strippable Blocks...
+[22Apr2024 01:20:20.446] [main/INFO] [journeymap/]: Initializing Packet Registries
+[22Apr2024 01:20:20.473] [main/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[22Apr2024 01:20:20.538] [main/INFO] [potionstudios.byg.BYG/]: Initializing BYG network...
+[22Apr2024 01:20:20.559] [main/INFO] [potionstudios.byg.BYG/]: Initialized BYG network!
+[22Apr2024 01:20:20.593] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22Apr2024 01:20:20.594] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[22Apr2024 01:20:20.594] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[22Apr2024 01:20:20.601] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[22Apr2024 01:20:20.603] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[22Apr2024 01:20:20.604] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[22Apr2024 01:20:20.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[22Apr2024 01:20:20.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[22Apr2024 01:20:21.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[22Apr2024 01:20:21.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Apr2024 01:20:21.305] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 40.2.18 Target: null
+[22Apr2024 01:20:21.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[22Apr2024 01:20:21.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: OUTDATED Current: 2.1.0 Target: 3.0.0
+[22Apr2024 01:20:21.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[22Apr2024 01:20:21.349] [modloading-worker-0/INFO] [com.song.castle_in_the_sky.CastleInTheSky/]: Got IMC []
+[22Apr2024 01:20:21.390] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at mcp.mobius.waila.addons.core.CorePlugin
+[22Apr2024 01:20:21.394] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at snownee.jade.VanillaPlugin
+[22Apr2024 01:20:21.417] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.WailaDataProvider
+[22Apr2024 01:20:21.420] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationWaila
+[22Apr2024 01:20:21.440] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at bl4ckscor3.mod.globalxp.compat.WailaDataProvider
+[22Apr2024 01:20:21.440] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[22Apr2024 01:20:21.463] [main/INFO] [potionstudios.byg.BYG/]: BYG: Compostable Blocks Added!
+[22Apr2024 01:20:21.468] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added tillables!
+[22Apr2024 01:20:21.487] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added Flammables!
+[22Apr2024 01:20:21.489] [main/INFO] [potionstudios.byg.BYG/]: BYG: "Load Complete" Event Complete!
+[22Apr2024 01:20:21.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.9 Target: null
+[22Apr2024 01:20:21.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[22Apr2024 01:20:21.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[22Apr2024 01:20:21.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[22Apr2024 01:20:21.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 7.6.8 Target: null
+[22Apr2024 01:20:21.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[22Apr2024 01:20:22.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[22Apr2024 01:20:22.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[22Apr2024 01:20:22.428] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 3.3.0 Target: 3.5.9
+[22Apr2024 01:20:22.428] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[22Apr2024 01:20:22.674] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: AHEAD Current: 1.18.2-1.0.4 Target: null
+[22Apr2024 01:20:26.440] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Apr2024 01:20:30.182] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2393!/assets/.mcassetsroot' uses unexpected schema
+[22Apr2024 01:20:30.187] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2393!/data/.mcassetsroot' uses unexpected schema
+[22Apr2024 01:20:35.700] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2024 01:20:35.702] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2024 01:20:35.706] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2024 01:20:35.707] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2024 01:20:35.709] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2024 01:20:35.714] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [mahousummon, treasury, stack, pos, anim_speed, proj_speed, acc, r, g, b, aim] and [mahousummon, treasury, stack, pos, anim_speed, proj_speed, acc, r, g, b, target] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2024 01:20:35.715] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [mahousummon, wepproj, stack, pos, proj_speed, acc, aim] and [mahousummon, wepproj, stack, pos, proj_speed, acc, target] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2024 01:20:42.498] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_1_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.534] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_3_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.543] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_5_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.567] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_4_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.570] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:belt_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.571] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_6_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.595] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.605] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_7_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.623] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_2_via_sewing as it's serializer returned null
+[22Apr2024 01:20:42.657] [Worker-Main-12/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[22Apr2024 01:20:43.667] [Worker-Main-12/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3882 advancements
+[22Apr2024 01:20:43.669] [Worker-Main-12/INFO] [Dungeon Crawl/]: Loading data...
+[22Apr2024 01:20:44.489] [Worker-Main-12/INFO] [Dungeon Crawl/]: Done.
+[22Apr2024 01:20:44.490] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 8 tool_handle_types
+[22Apr2024 01:20:44.490] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 37 snowcap_oven_freezing_recipes
+[22Apr2024 01:20:44.490] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 horizonite_forge_fuels
+[22Apr2024 01:20:44.490] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 12 snowcap_mushroom_freezing
+[22Apr2024 01:20:44.553] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 70 alchemy_recipes
+[22Apr2024 01:20:44.555] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 81 journal/entries
+[22Apr2024 01:20:44.555] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 3 journal/sections
+[22Apr2024 01:20:44.555] [Worker-Main-12/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 journal/requirements
+[22Apr2024 01:20:46.515] [main/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/nether-biomes.json5" was read.
+[22Apr2024 01:20:46.518] [main/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/end-biomes.json5" was read.
+[22Apr2024 01:20:46.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[22Apr2024 01:20:46.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Apr2024 01:20:46.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Apr2024 01:20:46.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Apr2024 01:20:46.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Apr2024 01:20:46.662] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Apr2024 01:20:46.739] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Apr2024 01:20:46.740] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Apr2024 01:20:46.740] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Apr2024 01:20:46.740] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Apr2024 01:20:46.754] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Apr2024 01:20:46.760] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: Loading "Easier Sleeping" Server Config
+[22Apr2024 01:20:46.761] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [sleep_percent] = 50
+[22Apr2024 01:20:46.761] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [sleep_message] = is now in bed.
+[22Apr2024 01:20:46.761] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [wake_message] = stood up.
+[22Apr2024 01:20:46.761] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [morning_message] = Good Morning
+[22Apr2024 01:20:46.761] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [dimensions] = [minecraft:overworld]
+[22Apr2024 01:20:46.762] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [dimension_list_type] = SLEEP_ACTIVE
+[22Apr2024 01:20:46.762] [Server thread/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: "Easier Sleeping" Server Config loaded
+[22Apr2024 01:20:46.763] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: Loading "Easier Sleeping" Server Config
+[22Apr2024 01:20:46.763] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [sleep_percent] = 50
+[22Apr2024 01:20:46.763] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [sleep_message] = is now in bed.
+[22Apr2024 01:20:46.763] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [wake_message] = stood up.
+[22Apr2024 01:20:46.764] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [morning_message] = Good Morning
+[22Apr2024 01:20:46.764] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [dimensions] = [minecraft:overworld]
+[22Apr2024 01:20:46.764] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [dimension_list_type] = SLEEP_ACTIVE
+[22Apr2024 01:20:46.765] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: "Easier Sleeping" Server Config loaded
+[22Apr2024 01:20:46.766] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: Loading "Easier Sleeping" Server Config
+[22Apr2024 01:20:46.766] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [sleep_percent] = 50
+[22Apr2024 01:20:46.766] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [sleep_message] = is now in bed.
+[22Apr2024 01:20:46.767] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [wake_message] = stood up.
+[22Apr2024 01:20:46.767] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [morning_message] = Good Morning
+[22Apr2024 01:20:46.767] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [dimensions] = [minecraft:overworld]
+[22Apr2024 01:20:46.767] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: [dimension_list_type] = SLEEP_ACTIVE
+[22Apr2024 01:20:46.767] [Thread-0/INFO] [de.geheimagentnr1.easier_sleeping.config.ServerConfig/]: "Easier Sleeping" Server Config loaded
+[22Apr2024 01:20:47.271] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[22Apr2024 01:20:47.271] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Apr2024 01:20:47.967] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.967] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.968] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:47.969] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[22Apr2024 01:20:48.068] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class dev.itsmeow.whisperwoods.entity.EntityMoth from class dev.itsmeow.whisperwoods.imdlib.entity.EntityTypeContainer
+[22Apr2024 01:20:48.069] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class dev.itsmeow.whisperwoods.entity.EntityMoth from class dev.itsmeow.whisperwoods.imdlib.entity.util.EntityTypeContainerContainable
+[22Apr2024 01:20:48.070] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class dev.itsmeow.whisperwoods.entity.EntityHidebehind from class dev.itsmeow.whisperwoods.imdlib.entity.EntityTypeContainer
+[22Apr2024 01:20:48.072] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class dev.itsmeow.whisperwoods.entity.EntityZotzpyre from class dev.itsmeow.whisperwoods.imdlib.entity.EntityTypeContainer
+[22Apr2024 01:20:48.108] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.108] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.109] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.109] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.109] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.109] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.110] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.110] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:48.110] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.110] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.111] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.111] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.111] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.111] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.112] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.112] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.112] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.112] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.112] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.112] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:48.113] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.113] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.113] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:48.113] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.114] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:48.114] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[22Apr2024 01:20:48.114] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.114] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.114] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.115] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.115] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.115] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.115] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.116] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.116] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.116] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.116] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[22Apr2024 01:20:48.151] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[22Apr2024 01:20:48.157] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[22Apr2024 01:20:48.173] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/end_surface_rules.json5" was read.
+[22Apr2024 01:20:48.177] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
+[22Apr2024 01:20:48.177] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[22Apr2024 01:20:48.182] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[22Apr2024 01:20:48.197] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/codespaces-jupyter/Minecraft-server/config/byg/surface_rules/end_surface_rules.json5" was read.
+[22Apr2024 01:20:48.198] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
+[22Apr2024 01:20:48.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Apr2024 01:20:49.220] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 01:20:49.230] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 01:20:49.236] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 01:20:49.700] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 01:20:50.201] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[22Apr2024 01:20:50.981] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[22Apr2024 01:20:51.200] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[22Apr2024 01:20:51.760] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[22Apr2024 01:20:52.202] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4003 ms
+[22Apr2024 01:20:52.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.454s)! For help, type "help"
+[22Apr2024 01:20:52.244] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Apr2024 01:20:52.286] [Server thread/INFO] [com.davenonymous.bonsaitrees3.BonsaiTrees3/]: Updated soil compatibility
+[22Apr2024 01:20:52.286] [Server thread/INFO] [com.davenonymous.bonsaitrees3.BonsaiTrees3/]: Updated additional upgrade items. Found 0.
+[22Apr2024 01:20:52.286] [Server thread/INFO] [com.song.castle_in_the_sky.CastleInTheSky/]: HELLO from server starting
+[22Apr2024 01:21:06.681] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@67de3fba
+[22Apr2024 01:21:06.698] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: diavoloop[/[0:0:0:0:0:0:0:1%0]:43202] logged in with entity id 464 at (-35.5, 77.0, 23.5)
+[22Apr2024 01:21:06.709] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to diavoloop
+[22Apr2024 01:21:06.711] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to diavoloop
+[22Apr2024 01:21:06.712] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to diavoloop
+[22Apr2024 01:21:06.713] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to diavoloop
+[22Apr2024 01:21:06.716] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to diavoloop
+[22Apr2024 01:21:06.727] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to diavoloop
+[22Apr2024 01:21:06.727] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to diavoloop
+[22Apr2024 01:21:06.755] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: diavoloop joined the game
+[22Apr2024 01:21:06.968] [Server thread/INFO] [Waila/]: Syncing config to diavoloop (ef8e7fc2-3d4f-39c4-bcc2-336fa7f4c17e)
+[22Apr2024 01:21:38.710] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5616ms or 112 ticks behind
+[22Apr2024 01:21:44.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: diavoloop has made the advancement [Minecraft Comes Alive]
+[22Apr2024 01:22:04.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: diavoloop moved too quickly! 9.9849836142522,-1.1142592750642422,0.3509194064870371
+[22Apr2024 01:22:38.802] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: diavoloop lost connection: Disconnected
+[22Apr2024 01:22:38.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: diavoloop left the game
+[22Apr2024 01:23:07.093] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2312!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2312!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.18.2-40.2.18-universal.jar%2398!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:92) ~[server-1.18.2-20220404.173914-srg.jar%2393!/:?]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2313!/:?]
+	... 4 more
+[22Apr2024 01:23:07.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2024 01:23:07.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2024 01:23:07.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2024 01:23:07.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Apr2024 01:23:25.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
+[22Apr2024 01:23:25.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
+[22Apr2024 01:23:25.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Apr2024 01:23:25.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Apr2024 01:23:25.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bonsaitrees3:growtown
+[22Apr2024 01:23:25.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[22Apr2024 01:23:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Apr2024 01:23:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
+[22Apr2024 01:23:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
+[22Apr2024 01:23:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Apr2024 01:23:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Apr2024 01:23:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (growtown): All chunks are saved
+[22Apr2024 01:23:25.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[22Apr2024 01:23:25.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
